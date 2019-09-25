@@ -10,10 +10,10 @@ COLLABORATOR: DENNY STARKS
 """
 #read https://www.earthdatascience.org/courses/earth-analytics-python/using-apis-natural-language-processing-twitter/get-and-use-twitter-data-in-python/
 
-consumer_key = '3uruHRok5ulKLOcl72uMl5cWe'
-consumer_secret = 'Gn3FXwk941Y4zg1Eq1rLbCsxPRZNO6tvktILFuhD2fLLp0cM72'
-access_token = '1154808187717132288-zlPRgiSXd3MoIIdk4Td2kLJmDThPQE'
-acces_token_secret = '5HMCYMKLIRU513EtwGmzNBhQY6rlMcPtOyPnMpbTzqUmK'
+consumer_key = 'yourkeyhere'
+consumer_secret = 'yourkeyhere
+access_token = 'yourkeyhere'
+acces_token_secret = 'yourkeyhere'
 
 auth = tw.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, acces_token_secret)
